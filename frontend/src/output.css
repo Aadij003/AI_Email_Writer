@@ -270,6 +270,9 @@
   .border-amber-200 {
     border-color: var(--color-amber-200);
   }
+  .border-zinc-400 {
+    border-color: var(--color-zinc-400);
+  }
   .bg-\[\#0b1c4d\] {
     background-color: #0b1c4d;
   }
