@@ -6,7 +6,7 @@
     <title>Mail Generator</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body class="bg-black text-white">
+<body class=" bg-[#060630] bg-[linear-gradient(90deg,rgba(6,6,48,1)_11%,rgba(4,2,38,1)_24%,rgba(2,2,18,1)_71%)] text-white">
     
     <header class="h-[10vh]  relative top-0  flex justify-between items-center px-6  
      bg-black text-white 
@@ -21,62 +21,93 @@
 </ul>
 </header>
 
-<main class="bg-[#060630] bg-[linear-gradient(90deg,rgba(6,6,48,1)_11%,rgba(4,2,38,1)_24%,rgba(2,2,18,1)_71%)] w-[100vw] h-[1200px]">
+<main class=" ml-4">
 
 
-    <div class="">
-  <p class="text-[#8cc1ed] font-bold relative top-[35px] italic left-[60px] text-[35px]  ">Create Professional Emails</p>
-  <p class="text-[#b8bcbf] relative italic top-[30px] left-[60px] text-[20px]">Just tell us what you need. Our AI will craft a professional, clear and well-structured
+    <div class="  mb-15 text-[18px] md:text-[20px]">
+
+        <div class="text-[#8cc1ed] mb-4 font-bold  italic  text-[35px]  ">
+  <p >Create Professional Emails</p>
+    </div>
+
+    <div  class="text-[#b8bcbf] italic  ">
+  <p>Just tell us what you need. Our AI will craft a professional, clear and well-structured
     <br>
      email for you in seconds.</p>
+     </div>
   </div>
 
 
     <!-- Main Box -->
-    <div class="flex relative w-screen h-screen top-[60px] ">
+    <div class="flex mr-5     items-center   ">
    
-        <!--  box1 inside main box -->
-        <div class="absolute left-[40px] ">
+       
+       <div class="  ">
 
-            <!-- small box1 inside box1 -->
-    <div class=" absolute h-[300px] w-[610px] bg-[#111112] rounded-[15px]  border-[#313033] border-[2px] border-solid">
+            <!-- input box -->
+    <div class=" mb-8 bg-[#111112] rounded-[15px]  border-[#313033] border-[2px] border-solid">
 
 
         
-        <!-- box inside small box 1 -->
-         <div>
+       
+        <div class="flex  items-center m-8">
 
-            <!-- text -->
-            <div >
+            
+            <div class="text-[#d2d5d9]    text-[25px]  " >
 
-                <p class="text-[#d2d5d9] p-[12px] font-[700] text-[25px] pl-[30px] pt-[20px]">What do you want to say?</p>
+                <p class="mb-4" >What do you want to say?</p>
+
+            
+
+            <div class="    md:w-[37vw]  rounded-[15px] bg-[#383838] ">
+
+                <textarea class=" border-none text-[#ffffff]  text-[22px] p-[22px] pt-[12px] resize-none mb-8" placeholder="Describe the email you want to write..." rows="4.5" cols="40 " ></textarea>
+            </div>
 
             </div>
 
-            <div class="relative h-[200px] w-[550px]  left-[30px] top-[5px] rounded-[15px] bg-[#383838] ">
-                <textarea class="text-[#ffffff] focus:outline-none focus:ring-0 font-[100] text-[22px] pl-[22px] pt-[12px] overflow-y-auto resize-none" placeholder="Describe the email you want to write..." rows="6" cols="55" ></textarea>
+
             </div>
 
+     </div>
+
+    <!-- select tone -->
+     <div>
+
+    <div class="mb-4">
+
+     <div class=" h-[20px]  md:w-[40vw] bg-[#111112] rounded-[15px] border-[#313033] border-[2px] border-solid"></div>
+
+
+
+    
+     </div>
+
+
+<!-- genrate button -->
+      <div class="">
      
+
+ <div class=" flex items-center ">
+    <button class="bg-amber-700 px-10 py-5 rounded-2xl p-5">
+        Generate
+    </button>
+ </div>
+
+</div>
 
     </div>
 
-    <!-- small box2 inside box1 -->
 
-     <div class=" absolute h-[200px] w-[610px] bg-[#111112] rounded-[15px] top-[320px] border-[#313033] border-[2px] border-solid"></div>
+</div>
 
-     
+        <div class=" m-8 ">
 
- <div class=" absolute h-[70px] w-[610px] bg-[#111112] rounded-[15px] top-[550px] border-[#313033] border-[2px] border-solid"></div>
-
-
-
-    </div>
-
-    <!-- box2 inside main box -->
-    <div class=" absolute h-[620px] w-[650px] bg-[#111112] left-[670px] rounded-[20px] border-[2px] border-[#313033] border-solid  "></div> 
-
-  </div>
+    <!-- output box -->
+    <div class=" mr-8 w-[40vw] md:h-[70vh]  md:w-[50vw]   rounded-[20px] border-[2px] border-[#313033] border-solid   bg-[#111112] h-[70vh] "></div> 
+        </div>
+ 
+</div>
 
 
     
@@ -84,7 +115,7 @@
 
 
 
-<footer>
+<footer class="bg-black mt-4">
     <div class="flex flex-col justify-center items-center m-4 mb-2 gap-1">
 <div class="flex p-4 ">
    <button>
