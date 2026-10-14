@@ -185,6 +185,9 @@
   .top-0 {
     top: 0px;
   }
+  .top-\[0px\] {
+    top: 0px;
+  }
   .top-\[5\] {
     top: 5;
   }
@@ -229,6 +232,15 @@
   }
   .top-\[375px\] {
     top: 375px;
+  }
+  .top-\[540px\] {
+    top: 540px;
+  }
+  .top-\[550px\] {
+    top: 550px;
+  }
+  .top-\[600px\] {
+    top: 600px;
   }
   .top-\[px\] {
     top: px;
@@ -322,6 +334,9 @@
   }
   .h-\[50px\] {
     height: 50px;
+  }
+  .h-\[70px\] {
+    height: 70px;
   }
   .h-\[100\] {
     height: 100;
