@@ -11,13 +11,13 @@
     <header class="h-[10vh]  flex justify-between items-center px-6  
      bg-black text-white 
       md:h-[12vh] md:px-8">
-<h1 class=" text-2xl md:text-3xl cursor-pointer font-bold">Dom<span class="bg-gradient-to-r from-[#6366F1] to-[#A855F7] bg-clip-text text-transparent">Ai</span>L</h1>
+<h1 class=" text-2xl md:text-3xl cursor-pointer font-bold">Dom<span class="bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-500 bg-clip-text text-transparent">Ai</span>L</h1>
 
 <ul class="flex items-center font-bold  gap-6 md:gap-8  ">
-    <li class=" hover:border-b border-zinc-400 "><a href="">Features</a></li>
-    <li class="hover:border-b border-zinc-400"><a href="">Resources</a></li>
+    <li class=" hover:border-b border-zinc-400 "><a href="../frontend/features.html" aria-current="page">Features</a></li>
+    <li class="hover:border-b border-zinc-400"><a href="../frontend/docs.html" aria-current="page">Docs</a></li>
     
-    <li class="hover:border-b border-zinc-400"><a href="">Docs</a></li>
+    <li class="hover:border-b border-zinc-400"><a href="../frontend/team.html" aria-current="page">Team</a></li>
 </ul>
 </header>
 
@@ -36,7 +36,7 @@
 
     <div>
 
-    <div class=" mt-4 p-4  ml-4 mr-4 rounded-lg bg-[radial-gradient(ellipse_at_bottom_left,_#B45309_0%,_#172033_40%,_#080B15_250%)]">
+    <div class=" mt-4 p-4   ml-4 mr-4 rounded-lg bg-[radial-gradient(ellipse_at_bottom_left,_#B45309_0%,_#172033_40%,_#080B15_250%)]">
         <h1 class="pb-2 font-bold">what do you want to say?</h1>
 <div>
 <textarea
@@ -52,33 +52,34 @@
 
     </div>
 
-    <div class="mb-4">
-    <div class=" mt-4 p-4  ml-4 mr-4 rounded-lg bg-[radial-gradient(ellipse_at_bottom_left,_#B45309_0%,_#172033_40%,_#080B15_250%)]" >
+    <div class="mb-4 ">
+    <div class=" mt-4 p-4  mx-4 rounded-lg bg-[radial-gradient(ellipse_at_bottom_left,_#B45309_0%,_#172033_40%,_#080B15_250%)]" >
 
         <h1 class="font-bold">Email tone!!</h1>
 
-        <div class="flex mt-4 text-zinc-400 ">
+        <div class="flex flex-col md:flex-row gap-6 mt-4 text-zinc-400 ">
         <div class="">
             <div>
-            <label for="tone">Tone</label></div>
-            <select name="" id="" class="border-1 border-zinc-500 w-[260px] rounded-2xl cursor-pointer focus:outline-none  bg-black text-zinc-200 ">
-                <option value="" disabled selected>Select your role</option>
-                <option value="" class="">Professional</option>
-                <option value="">friendly</option>
-                <option value="">vla</option>
-                <option value="">vlaa</option>
+            <label for="tone" >Tone</label></div>
+            
+            <select name="" id="" class="border-1 border-zinc-500 w-full md:px-16  sm:flex-1 rounded-2xl cursor-pointer focus:outline-none  bg-[radial-gradient(ellipse_at_bottom_left,_#B45309_0%,_#172033_40%,_#080B15_250%)] text-zinc-300 ">
+                <option  value="" disabled selected>Select your role</option>
+                <option value="" class="text-black">Professional</option>
+                <option class="text-black" value="">friendly</option>
+                <option class="text-black" value="">vla</option>
+                <option class="text-black" value="">vlaa</option>
             </select>
         </div>
 
-         <div class="ml-8 ">
+         <div class="">
             <div>
             <label for="Length" >Length</label></div>
-            <select name="" id="" class="border-1 border-zinc-500 w-[260px] rounded-2xl bg-black cursor-pointer text-zinc-200 focus:outline-none ">
+            <select name="" id="" class="border-1 border-zinc-500 w-full md:px-15 sm:flex-1 rounded-2xl  bg-[radial-gradient(ellipse_at_bottom_left,_#B45309_0%,_#172033_40%,_#080B15_250%)] cursor-pointer text-zinc-200 focus:outline-none ">
                 <option value="" disabled selected>Select your role</option>
-                <option value="">long</option>
-                <option value="">middle</option>
-                <option value="">short</option>
-                <option value="">vlaa</option>
+                <option class="text-black" value="">long</option>
+                <option class="text-black" value="">middle</option>
+                <option class="text-black" value="">short</option>
+                <option class="text-black" value="">vlaa</option>
             </select>
         </div>
             </div>
